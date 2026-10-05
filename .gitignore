@@ -1,0 +1,85 @@
+# ====================================================================
+# Build & Compiler Outputs
+# ====================================================================
+.gradle/
+**/.gradle/
+.kotlin/
+**/.kotlin/
+build/
+**/build/
+bin/
+**/bin/
+out/
+**/out/
+target/
+**/target/
+
+# ====================================================================
+# Android Studio / IntelliJ IDEA / VS Code
+# ====================================================================
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+*.iws
+*.ipr
+.vscode/
+**/.vscode/
+captures/
+.externalNativeBuild/
+.cxx/
+output-metadata.json
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# ====================================================================
+# Local Configurations & Secrets
+# ====================================================================
+local.properties
+**/local.properties
+*.jks
+*.keystore
+google-services.json
+
+# ====================================================================
+# Profiling & Diagnostics
+# ====================================================================
+*.hprof
+*.log
+
+# ====================================================================
+# OS & Filesystem Metadata
+# ====================================================================
+.DS_Store
+.DS_Store?
+._*
+**/.DS_Store
+**/.DS_Store?
+**/._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ====================================================================
+# Binary Packages & Distribution Artifacts
+# ====================================================================
+*.apk
+**/*.apk
+*.aab
+**/*.aab
+*.dmg
+**/*.dmg
+*.pkg
+**/*.pkg
+*.deb
+**/*.deb
+*.rpm
+**/*.rpm
+*.exe
+**/*.exe
+*.msi
+**/*.msi
+dist/
+**/dist/
